@@ -1,10 +1,17 @@
+# =====================================================================
+# 脚本名称 : pinclie_dibo.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : 仿真可视化引擎 (早期版本)。加入了底波和表面波的物理效应模拟。
+# =====================================================================
+
 import numpy as np
 import plotly.graph_objects as go
 import os
 from scipy.spatial.transform import Rotation as R_scipy
 from scipy.ndimage import gaussian_filter
 
-TXT_FILENAME = "1.txt"
+TXT_FILENAME = "2026.3.17.txt"
 
 def create_sample_txt():
     """自动生成包含全域面积和细长缺陷的配置文件"""

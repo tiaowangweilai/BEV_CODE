@@ -7,7 +7,7 @@ from scipy.ndimage import label, find_objects, binary_closing # 🌟 新增形�
 import matplotlib.pyplot as plt
 import base64
 
-FILE_NAME = "2026.4.21_normalized.txt"
+FILE_NAME = "Synthetic_LevelSet_Raw.txt"
 
 def parse_render_and_quantify_raw(filepath):
     print(f"📂 正在解析真实采集卡数据: {filepath} ...")

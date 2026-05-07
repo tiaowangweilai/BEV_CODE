@@ -1,3 +1,10 @@
+# =====================================================================
+# 脚本名称 : pinclie_traditional.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : 传统的形态学高亮显示引擎。基于简单阈值和连通域算法的可视化展示。
+# =====================================================================
+
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots

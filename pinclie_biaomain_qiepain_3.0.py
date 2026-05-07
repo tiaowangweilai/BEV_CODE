@@ -1,3 +1,10 @@
+# =====================================================================
+# 脚本名称 : pinclie_biaomain_qiepain_3.0.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : 可视化引擎 (V3.0 Pro)。成熟的物理场仿真仪表盘，包含Z轴切片滑块交互、3D高亮追踪与自动缺陷量化报告(HTML导出)。
+# =====================================================================
+
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -7,7 +14,7 @@ from scipy.spatial.transform import Rotation as R_scipy
 from scipy.ndimage import gaussian_filter, label, find_objects
 import matplotlib.pyplot as plt
 
-TXT_FILENAME = "2026.4.21_normalized.txt"
+TXT_FILENAME = "1.txt"
 
 # ================= 恢复：原始的表面生成逻辑 =================
 def get_volumetric_surface_intensity(Lx, Ly, nx, ny):

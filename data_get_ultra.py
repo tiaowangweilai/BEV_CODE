@@ -1,3 +1,10 @@
+# =====================================================================
+# 脚本名称 : data_get_ultra.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : 高逼真物理前向建模引擎。带有散斑噪声、指数衰减、波束扩散和振铃拖尾等声学劣化效应的合成数据生成器。
+# =====================================================================
+
 import numpy as np
 import os
 from scipy.ndimage import gaussian_filter
@@ -80,7 +87,7 @@ def generate_messy_realistic_ultrasound(ny=50, nx=300, nz=300):
     # ==========================================
     # 4. 工业级流式写入 (防爆内存)
     # ==========================================
-    output_filename = "1.6.txt"
+    output_filename = "1.7.txt"
     print(f"⏳ 正在流式写入 {output_filename} ...")
     
     flattened_data = volume.flatten()

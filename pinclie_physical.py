@@ -1,3 +1,10 @@
+# =====================================================================
+# 脚本名称 : pinclie_physical.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : 带有复杂声学物理模型的可视化渲染引擎。引入了波束发散拖尾、深度衰减惩罚等物理约束。
+# =====================================================================
+
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots

@@ -1,3 +1,10 @@
+# =====================================================================
+# 脚本名称 : pinclie_biaomain_2.0.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : 可视化引擎 (V2.0)。能够直接读取大规模原始采集数据，进行数据切片与三维交互展示。
+# =====================================================================
+
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots

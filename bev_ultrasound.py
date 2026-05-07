@@ -1,10 +1,17 @@
+# =====================================================================
+# 脚本名称 : bev_ultrasound.py
+# 修改日期 : 2026-05-07
+# 作    者 : Antigravity & USER
+# 脚本作用 : PhysBEV核心算法原型。展示声学物理原理指导的三维重构，包含深度增益补偿(TGC)和多模态特征融合。
+# =====================================================================
+
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
 import re
 
-FILE_NAME = "Synthetic_2026_Raw.txt"
+FILE_NAME = "raw_ultrasound_data.txt"
 
 def load_raw_tensor_to_physbev(filepath):
     print(f"📂 [PhysBEV Engine] 正在挂载原始硬件数据: {filepath} ...")
