@@ -1,0 +1,8 @@
+# 屏蔽所有生成的 HTML 可视化结果
+*.html
+*.txt
+# 同时也建议屏蔽这些（如果你还没加的话）
+slices/
+slices2/
+*.npy
+*.pth
